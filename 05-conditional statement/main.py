@@ -1,5 +1,5 @@
 
-year = int(inut("Enter a year here"))    # get input from user
+year = int(input("Enter a year here"))    # get input from user
 
 if year%4 == 0:
     print("This is a leap year")        #if reminder is equal to zero means it is a leap year 

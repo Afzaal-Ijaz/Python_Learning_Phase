@@ -1,0 +1,23 @@
+
+
+class Person:
+    #class attributes
+    name ='Kami'
+    age = 28
+    height =5.5
+    qualification = 'MSCS'
+
+    #methods of the class
+    def walk(self):
+        print ('person can walk')
+    def talk(self):
+        print ('person can talk')
+    def eat(self):
+        print ('person can eat')
+
+p1 = Person() #object define
+print(p1.name)
+print(p1.age)
+p1.talk()
+p1.walk()
+p1.eat()
